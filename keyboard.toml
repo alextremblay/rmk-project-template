@@ -7,12 +7,12 @@ product_id = 0x1072
 manufacturer = "Maple Computing"
 chip = "rp2040"
 
-[matrix]
-# Input and output pins are mandatory
-# In col2row (true for ergo9000), output pins are columns, input pins are rows
-output_pins = ["PIN_9", "PIN_21", "PIN_23", "PIN_20", "PIN_22", "PIN_26", "PIN_27", "PIN_28", "PIN_29"]
-input_pins = ["PIN_0", "PIN_1", "PIN_4", "PIN_5", "PIN_6", "PIN_7"]
-# WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
+# [matrix]
+# # Input and output pins are mandatory
+# # In col2row (true for ergo9000), output pins are columns, input pins are rows
+# output_pins = ["PIN_9", "PIN_21", "PIN_23", "PIN_20", "PIN_22", "PIN_26", "PIN_27", "PIN_28", "PIN_29"]
+# input_pins = ["PIN_0", "PIN_1", "PIN_4", "PIN_5", "PIN_6", "PIN_7"]
+# # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
 [aliases]
