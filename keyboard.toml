@@ -22,8 +22,8 @@ undo = "WM(Z, LGui)"
 OS = "Space" # Some day this will be an os switch, for now it's just space
 
 [layout]
-rows = 18
-cols = 6
+rows = 6
+cols = 18
 layers = 1
 matrix_map = """
 (0,0) (0,1) (0,2) (0,3) (0,4) (0,5) (0,6) (0,7) (0,8)    (0,9) (0,10) (0,11) (0,12) (0,13) (0,14) (0,15) (0,16) (0,17)
@@ -71,8 +71,8 @@ KpEnter  Kp0         KpDot    LCtrl   LAlt  LGui  Delete  Space  MO(1)          
 connection = "serial"
 
 [split.central]
-rows = 9
-cols = 6
+rows = 6
+cols = 9
 row_offset = 0
 col_offset = 0
 serial = [
@@ -88,8 +88,8 @@ output_pins = ["PIN_9", "PIN_21", "PIN_23", "PIN_20", "PIN_22", "PIN_26", "PIN_2
 input_pins = ["PIN_0", "PIN_1", "PIN_4", "PIN_5", "PIN_6", "PIN_7"]
 
 [[split.peripheral]]
-rows = 9
-cols = 6
+rows = 6
+cols = 9
 row_offset = 0
 col_offset = 9
 serial = [{ instance = "PIO0", tx_pin = "PIN_2", rx_pin = "PIN_3" }]
