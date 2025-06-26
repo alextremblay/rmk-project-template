@@ -4,8 +4,8 @@
     "productId": "0x1072",
     "lighting": "none",
     "matrix": {
-        "rows": 18,
-        "cols": 6
+        "rows": 6,
+        "cols": 18
     },
     "layouts": {
         "keymap": [

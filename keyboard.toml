@@ -16,8 +16,8 @@ chip = "rp2040"
 # row2col = true
 
 [aliases]
-hyper = "LCtrl|LAlt|LGui|LShift"
-meh = "LCtrl|LAlt|LGui"
+hyper = "OSM(LCtrl|LAlt|LGui|LShift)"
+meh = "OSM(LCtrl|LAlt|LGui)"
 undo = "WM(Z, LGui)"
 OS = "Space" # Some day this will be an os switch, for now it's just space
 
