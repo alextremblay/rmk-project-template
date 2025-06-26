@@ -38,12 +38,12 @@ matrix_map = """
 [[layer]]
 name = "base"
 keys = """
-Escape   KpSlash     __       __      F1    F2    F3      F4     F5               F6     F7     F8         F9      F10        F11     F12     PrintScreen  Application     
-KpPlus   KpAsterisk  KpMinus  Grave   1     2     3       4      5                6      7      8          9       0          -       =       Backspace    Delete     
-Kp7      Kp8         Kp9      Tab     Q     W     E       R      T                Y      U      I          O       P          [       ]       Backslash    Home    
-Kp4      Kp5         Kp6      Escape  A     S     D       F      G                H      J      K          L       Semicolon  Quote   Enter   Enter        End     
-Kp1      Kp2         Kp3      LShift  Z     X     C       V      B                N      M      Comma      Period  Slash      RShift  PageUp  Up           PageDown    
-KpEnter  Kp0         KpDot    LCtrl   LAlt  LGui  Delete  Space  MO(1)            MO(2)  Space  Backspace  RGui    RAlt       RCtrl   Left    Down         Right   
+Escape   KpSlash     __       __      F1    F2    F3      F4     F5               F6     F7     F8         F9    F10        F11     F12     PrintScreen  Application     
+KpPlus   KpAsterisk  KpMinus  Grave   1     2     3       4      5                6      7      8          9     0          -       =       Backspace    Delete     
+Kp7      Kp8         Kp9      Tab     Q     W     E       R      T                Y      U      I          O     P          [       ]       Backslash    Home    
+Kp4      Kp5         Kp6      Escape  A     S     D       F      G                H      J      K          L     Semicolon  Quote   Enter   Enter        End     
+Kp1      Kp2         Kp3      LShift  Z     X     C       V      B                N      M      Comma      Dot   Slash      RShift  PageUp  Up           PageDown    
+KpEnter  Kp0         KpDot    LCtrl   LAlt  LGui  Delete  Space  MO(1)            MO(2)  Space  Backspace  RGui  RAlt       RCtrl   Left    Down         Right   
 """
 
 [light]
